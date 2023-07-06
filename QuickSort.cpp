@@ -41,3 +41,5 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char** argv) {
 
     return EXIT_SUCCESS;
 }
+
+// https://www.geeksforgeeks.org/quick-sort/
