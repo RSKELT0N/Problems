@@ -12,7 +12,7 @@ struct fact
 };
 
 template<>
-struct fact<0>
+struct fact<1>
 {
     static constexpr long value = 1;
 };
