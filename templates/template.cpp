@@ -35,7 +35,12 @@ struct fib<0>
     static constexpr long value = 0;
 };
 
-#define fori(x) for(int i = 0; i < x; i++)
+template<typename... T>
+void print(T && ... args)
+{
+    ((std::cout << args << " "), ...);
+    std::cout << std::endl;
+}
 
 void solve()
 {
