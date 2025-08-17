@@ -1,4 +1,4 @@
-class Solution {
+iclass Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         std::unordered_map<char, int> map = {};
